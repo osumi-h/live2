@@ -1,0 +1,38 @@
+@charset 'utf-8';
+
+.main 	{
+	color: white;
+	text-align: center;
+	font-family: 'Noto Sans Japanese';
+}
+
+.name 	{
+	font-family: 'Noto Sans Japanese';
+	font-size: 30px;
+	border-bottom: solid pink 5px;
+	padding: 0px 3%;
+}
+
+p {
+	border-bottom: solid black;
+}
+
+table 	{
+	color: black;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	opacity: 0.9;
+}
+
+td 	{
+	padding: 80px;
+	font-family: 'Noto Sans Japanese';
+}
+
+.hp	{
+	transition: 0.3s ease-in-out;
+}
+
+

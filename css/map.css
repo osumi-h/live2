@@ -1,0 +1,49 @@
+@charset 'utf-8';
+
+.scr	{
+	overflow: scroll;
+	width: 500px;
+	height: 371px;
+	display: block;
+	margin-right: auto;
+	margin-left:  auto;
+	background-color: white;
+	border-style: solid;
+	opacity: 0.9;
+}
+
+.main 	{
+	color: gray;
+	font-family: 'Noto Sans Japanese';
+	text-align: center;
+}
+
+.id 	{
+	margin-bottom: 10px;
+	font-size: 17px;
+	font-family: 'Noto Sans Japanese';
+	border-style: none;
+	background-color: transparent;
+	transition: 0.2s ease-in-out;
+}
+
+.id:hover	{
+	color: red;
+	background-color: pink;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.id:active	{
+	background-color: transparent;
+}
+
+.id:focus	{
+	outline: none;
+}
+
+#map 	{ 
+	display: inline-block;
+	height: 350px;
+	width: 500px;
+}
